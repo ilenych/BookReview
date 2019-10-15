@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		971922FE2355B19A001A68F3 /* resource.json in Resources */ = {isa = PBXBuildFile; fileRef = 971922FD2355B19A001A68F3 /* resource.json */; };
 		97EB0029234367E100DC17AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB0028234367E100DC17AB /* AppDelegate.swift */; };
 		97EB0030234367E100DC17AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97EB002E234367E100DC17AB /* Main.storyboard */; };
 		97EB0032234367E200DC17AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97EB0031234367E200DC17AB /* Assets.xcassets */; };
@@ -20,11 +21,11 @@
 		97EB00702344EE9E00DC17AB /* ImageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB006F2344EE9E00DC17AB /* ImageVC.swift */; };
 		97EB00722344F15800DC17AB /* ImageScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB00712344F15800DC17AB /* ImageScrollView.swift */; };
 		97EB007823451C7F00DC17AB /* PageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB007723451C7F00DC17AB /* PageVC.swift */; };
-		97EB007D23462AB100DC17AB /* resource.json in Resources */ = {isa = PBXBuildFile; fileRef = 97EB007C23462AB100DC17AB /* resource.json */; };
 		97EB007F23464FE200DC17AB /* LocalService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97EB007E23464FE100DC17AB /* LocalService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		971922FD2355B19A001A68F3 /* resource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resource.json; sourceTree = "<group>"; };
 		97EB0025234367E100DC17AB /* BookReview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookReview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97EB0028234367E100DC17AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97EB002F234367E100DC17AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,7 +41,6 @@
 		97EB006F2344EE9E00DC17AB /* ImageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageVC.swift; sourceTree = "<group>"; };
 		97EB00712344F15800DC17AB /* ImageScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageScrollView.swift; sourceTree = "<group>"; };
 		97EB007723451C7F00DC17AB /* PageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageVC.swift; sourceTree = "<group>"; };
-		97EB007C23462AB100DC17AB /* resource.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = resource.json; path = ../../../../Downloads/books/resource.json; sourceTree = "<group>"; };
 		97EB007E23464FE100DC17AB /* LocalService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		971922FC2355B19A001A68F3 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				971922FD2355B19A001A68F3 /* resource.json */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		97EB001C234367E100DC17AB = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +85,8 @@
 				97EB0081234662E500DC17AB /* Book list */,
 				97EB00852346638000DC17AB /* Description */,
 				97EB0088234663FF00DC17AB /* Pages */,
-				97EB007B234627B200DC17AB /* Resource */,
 				97EB00802346619C00DC17AB /* LocalService */,
+				971922FC2355B19A001A68F3 /* Resource */,
 				97EB0028234367E100DC17AB /* AppDelegate.swift */,
 				97EB002E234367E100DC17AB /* Main.storyboard */,
 				97EB0031234367E200DC17AB /* Assets.xcassets */,
@@ -86,14 +94,6 @@
 				97EB0036234367E200DC17AB /* Info.plist */,
 			);
 			path = BookReview;
-			sourceTree = "<group>";
-		};
-		97EB007B234627B200DC17AB /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				97EB007C23462AB100DC17AB /* resource.json */,
-			);
-			path = Resource;
 			sourceTree = "<group>";
 		};
 		97EB00802346619C00DC17AB /* LocalService */ = {
@@ -250,7 +250,7 @@
 			files = (
 				97EB00482343D4AE00DC17AB /* BooksTVC.xib in Resources */,
 				97EB0035234367E200DC17AB /* LaunchScreen.storyboard in Resources */,
-				97EB007D23462AB100DC17AB /* resource.json in Resources */,
+				971922FE2355B19A001A68F3 /* resource.json in Resources */,
 				97EB0032234367E200DC17AB /* Assets.xcassets in Resources */,
 				97EB0030234367E100DC17AB /* Main.storyboard in Resources */,
 			);
